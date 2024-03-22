@@ -14,7 +14,10 @@ import jakarta.enterprise.context.RequestScoped;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
+import jakarta.persistence.Query;
+
 import mg.itu.elodie.tp1.entities.Customer;
+
 
 /**
  * Façade pour gérer les Customers.
